@@ -1,31 +1,36 @@
 @charset "utf-8";
 
+/* main container styling */
 main {
   width: 240px;
   margin: 32px auto;
 }
 
+/* section styling */
 section {
   border: 4px double red;
   text-align: center;
   color: red;
 }
 
-h1{
+/* header styling */
+h1 {
   margin: 0;
   border-bottom: 2px solid red;
   font-weight: normal;
   padding: 8px 0;
 }
 
-p{
+/* paragraph styling */
+p {
   margin: 0;
   font-weight: bold;
   font-size: 36px;
   padding: 24px 0;
 }
 
-button{
+/* button styling */
+button {
   all: unset;
   width: 100%;
   background: red;
@@ -44,5 +49,5 @@ button:hover {
 
 button:active {
   box-shadow: 0 1px #7a0000;
-   transform: translateY(3px);
+  transform: translateY(3px);
 }

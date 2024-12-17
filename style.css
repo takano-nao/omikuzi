@@ -29,7 +29,13 @@ p {
   padding: 24px 0;
 }
 
-/* button styling */
+#message {
+  font-size: 16px;
+  color: red;
+  white-space: nowrap;
+  text-align: center; 
+}
+
 button {
   all: unset;
   width: 100%;

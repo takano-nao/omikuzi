@@ -36,6 +36,10 @@ p {
   text-align: center; 
 }
 
+body {
+  background: #e6e6fa;
+}
+
 button {
   all: unset;
   width: 100%;
